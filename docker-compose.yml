@@ -31,7 +31,7 @@ services:
 
       # n8n basic config
       N8N_PORT: 5678
-      N8N_HOST: localhost
+      N8N_HOST: 0.0.0.0
       N8N_PROTOCOL: http
       GENERIC_TIMEZONE: Asia/Kolkata
       TZ: Asia/Kolkata
