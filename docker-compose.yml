@@ -38,6 +38,9 @@ services:
 
       # REQUIRED – keep this safe
       N8N_ENCRYPTION_KEY: 129c12370bbe24eca59db757bf23c2ee411617bfdb5129d2216f669acdb88405
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: true
+      N8N_RUNNERS_ENABLED: true
+      N8N_SECURE_COOKIE: false
 
     ports:
       - "5678:5678"
